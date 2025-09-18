@@ -1,0 +1,66 @@
+.login-form {
+  width: 360px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* відстань між полями і кнопкою */
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Блок Email і Password */
+.login-form .email-field,
+.login-form .password-field {
+  width: 360px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Лейбл */
+.login-form label {
+  font-family: "Montserrat", sans-serif; /* шрифт */
+  font-weight: 400; /* звичайний */
+  font-style: normal; /* Regular */
+  font-size: 16px; /* розмір шрифту */
+  line-height: 24px; /* міжрядковий інтервал */
+  letter-spacing: 0.04em; /* 4% = 0.04em */
+  color: #2e2f42; /* колір тексту */
+}
+
+/* Поля вводу */
+.login-form input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Кнопка */
+.login-form button {
+  width: 86px; /* ширина кнопки */
+  height: 40px; /* висота кнопки */
+  background-color: #4e75ff; /* колір фону */
+  color: #ffffff; /* колір тексту */
+  border: none;
+  border-radius: 8px; /* закруглення кутів */
+  padding: 8px 16px; /* внутрішні відступи: top/bottom 8px, left/right 16px */
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* відстань між контентом всередині кнопки */
+}
+
+.login-form button:hover {
+  background-color: #3d5edb; /* темніший відтінок при наведенні */
+}
+.login-form button:active {
+  background-color: #2c4ea0; /* ще темніший відтінок при натисканні */
+}
